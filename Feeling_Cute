@@ -1,0 +1,7 @@
+#18-2 Feeling Cute...Might Delete Later
+def log_to_file(fname, theme):
+  with open(fname,'a') as fp1:
+    ui = input('inspirational')
+    while ui != '':
+      fp1.write(f'{theme}:{ui}\n')
+      ui = input('inspirational')
